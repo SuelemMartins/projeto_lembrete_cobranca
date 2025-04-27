@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Controle de Lembretes de Cobrança</title>
+  </head>
+  <body>
+    <h1>Controle de Lembretes de Cobrança</h1>
+    <label for="dataVencimento">Data de Vencimento do Boleto:</label><br />
+    <input type="date" id="dataVencimento" /><br /><br />
+
+    <label for="dataHoje">Data de Hoje:</label><br />
+    <input type="date" id="dataHoje" /><br /><br />
+
+    <button onclick="verificarStatus()">Verificar</button>
+
+    <div id="resultado"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
