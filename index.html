@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Controle de Lembretes de Cobrança</title>
-  </head>
-  <body>
-    <h1>Controle de Lembretes de Cobrança</h1>
-    <label for="dataVencimento">Data de Vencimento do Boleto:</label><br />
-    <input type="date" id="dataVencimento" /><br /><br />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Lembrete de Cobrança</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.garante.png" typo="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>💚 Controle de Lembrete de Cobrança</h1>
+        <p>Informe a data de vencimento do boleto:</p>
+        <input type="date" id="dataVencimento">
 
-    <label for="dataHoje">Data de Hoje:</label><br />
-    <input type="date" id="dataHoje" /><br /><br />
+        <p>Informe a data de hoje:</p>
+        <input type="date" id="dataHoje">
 
-    <button onclick="verificarStatus()">Verificar</button>
+        <button onclick="verificarCobranca()">Verificar Situação</button>
 
-    <div id="resultado"></div>
-  </body>
-  <script src="script.js"></script>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
