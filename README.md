@@ -26,7 +26,7 @@ O objetivo principal desse projeto é fornecer uma ferramenta que ajude a equipe
 
 ## Imagem do Projeto
 
-![Imagem do Sistema](./imagem.cobranca.JPG)
+![Imagem do Sistema](./image-meu-projeto.JPG)
 
 ## Link para o projeto
 
